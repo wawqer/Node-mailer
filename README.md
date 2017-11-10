@@ -1,1 +1,1 @@
-http://localhost:3000'ta çalışıyor
+http://localhost:3000'de çalışıyor
