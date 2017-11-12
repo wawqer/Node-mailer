@@ -2,7 +2,7 @@ var express=require('express');
 var nodemailer = require("nodemailer");
 var app=express();
 /*
-	SMTP SERVER DETAYLARINI KONFİGÜRE EDİYORUZ.
+	SMTP SERVER DETAILS ARE CONFIGURING.
 	*/
 var smtpTransport = nodemailer.createTransport({
     service: "Gmail",
@@ -12,9 +12,9 @@ var smtpTransport = nodemailer.createTransport({
     }
 });
 var rand,mailOptions,host,link;
-/*SMTP BİTTİ*/
+/*SMTP IS OVER*/
 
-/*ROUTING BAŞLADI*/
+/*ROUTING STARTED*/
 
 app.get('/',function(req,res){
 	res.sendfile('index.html');
